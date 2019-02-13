@@ -1,0 +1,4 @@
+python_version: anaconda3-5.0.0
+user: vagrant
+home: /home/{{ user }}
+activate_home: "{{ home }}/.pyenv/versions/{{ python_version }}/envs/{{ conda_virtualenv }}"
